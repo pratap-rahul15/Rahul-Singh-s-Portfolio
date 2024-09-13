@@ -1,0 +1,16 @@
+.educationContainer h5 {
+  text-align: right;
+  margin-bottom: 0.25rem;
+}
+
+.educationContainer h3 {
+  text-align: center;
+}
+
+/* ========================== MEDIA QUERIES(TABLET)=================== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ========================== MEDIA QUERIES(MOBILE)=================== */
+@media screen and (max-width: 600px) {
+}

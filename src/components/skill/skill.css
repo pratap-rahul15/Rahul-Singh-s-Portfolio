@@ -1,0 +1,104 @@
+.skillContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.skill {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-white);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.skill:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.skillHead {
+  background: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.skillHead h3 {
+  color: var(--color-bg);
+  font-size: 1rem;
+}
+
+.skillHeadIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skillSubList {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+}
+
+.stackList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.headIcon {
+  color: var(--color-bg);
+  font-size: 1rem;
+}
+
+.skillList {
+  padding: 2rem;
+}
+.skillList li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.listIcon {
+  color: var(--color-primary);
+  margin-top: 2px;
+}
+
+.skillList p {
+  font-size: 0.9rem;
+}
+
+.skillImg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+/* ========================== MEDIA QUERIES(TABLET)=================== */
+@media screen and (max-width: 1024px) {
+  .container {
+  }
+  .skillContainer {
+    width: var(--container-width-md);
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .skill {
+    height: auto;
+  }
+}
+
+/* ========================== MEDIA QUERIES(MOBILE)=================== */
+@media screen and (max-width: 600px) {
+  .skillContainer {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}

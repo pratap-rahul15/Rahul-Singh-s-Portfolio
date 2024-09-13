@@ -1,0 +1,20 @@
+ul.tick-list {
+  list-style-type: disc; /* Set list style for this ul */
+}
+ul.tick-list li {
+  margin-bottom: 0.25rem;
+}
+ul.tick-list li::before {
+  content: "\2713";
+  margin-right: 0.5rem;
+  color: var(--color-white);
+}
+
+.experienceContainer h5 {
+  text-align: right;
+  margin-bottom: 0.25rem;
+}
+
+.experienceContainer h3 {
+  text-align: center;
+}

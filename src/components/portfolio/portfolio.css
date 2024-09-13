@@ -1,0 +1,58 @@
+.container.portfolioContainer {
+  width: 45%;
+  padding-bottom: 4rem;
+}
+.portfolioContainer {
+  height: 30rem;
+}
+
+.portfolio {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  user-select: none;
+  border-radius: 2rem;
+}
+
+.playlistImage {
+  width: 20rem;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  border: 0.4rem solid var(--color-primary-variant);
+}
+
+.achivementDetails {
+  color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  margin: 0.7rem auto 0;
+}
+
+/* ========================== MEDIA QUERIES(TABLET)=================== */
+@media screen and (max-width: 1024px) {
+  .container.portfolioContainer {
+    width: 65%;
+  }
+}
+
+/* ========================== MEDIA QUERIES(MOBILE)=================== */
+@media screen and (max-width: 600px) {
+  .container.portfolioContainer {
+    width: var(--container-width-sm);
+  }
+  .portfolioContainer {
+    height: 32rem;
+  }
+
+  .playlistImage {
+    width: 16rem;
+    margin: 0 auto 1rem;
+  }
+
+  .achivementDetails {
+    width: var(--container-width-sm);
+  }
+  .portfolio {
+    padding: 1rem;
+  }
+}
