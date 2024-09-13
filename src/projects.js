@@ -37,7 +37,7 @@ const projects = [
     title: "GameHub",
     stacks: [html, css, react],
     github: "https://github.com/pratap-rahul15/GameHub",
-    demo: "",
+    demo: "https://game-hub-project-gilt.vercel.app/",
   },
 ];
 
