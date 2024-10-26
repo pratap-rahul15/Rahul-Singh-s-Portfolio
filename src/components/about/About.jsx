@@ -30,7 +30,7 @@ const About = () => {
               <PiDesktopTower className="aboutIcon" />
 
               <h5>Projects</h5>
-              <small>4+ Company & Personal Projects</small>
+              <small>5+ Company & Personal Projects</small>
             </article>
 
             <article className="aboutCard">

@@ -19,9 +19,13 @@ import html from "../../assets/html-5.png";
 import javaScript from "../../assets/java-script.png";
 import react from "../../assets/react.png";
 import vite from "../../assets/vite.png";
+import tailwind from "../../assets/tailwind.png";
 //backend
 
 import API from "../../assets/API.png";
+import springboot from "../../assets/springboot.png";
+import node from "../../assets/node.png";
+import express from "../../assets/express.png";
 
 
 //database
@@ -38,10 +42,13 @@ import postman from "../../assets/postman.png";
 import Vscode from "../../assets/Vscode.png";
 import intellij from "../../assets/intellij.png";
 import STS from "../../assets/STS.png";
+import openai from "../../assets/openai.png";
+import maven from "../../assets/maven.jpg";
 
 const Skill = () => {
   return (
     <section id="skill">
+
       <h5>Relevant Skills</h5>
       <h2>Skills</h2>
       <div className="container skillContainer">
@@ -107,6 +114,10 @@ const Skill = () => {
                 <img src={vite} alt="vite" className="skillImg" />
                 <p>Vite js</p>
               </li>
+              <li>
+              <img src={tailwind} alt="vite" className="skillImg" />
+              <p>Tailwind CSS</p>
+            </li>
               </ul>
             </li>
             
@@ -119,10 +130,24 @@ const Skill = () => {
 
               <ul className="stackList">
               <li>
-                <img src={API} alt="api" className="skillImg" />
+                <img src={springboot} alt="api" className="skillImg" />
                 <p>SPRING BOOT</p>
               </li>
             </ul>
+
+            <ul className="stackList">
+            <li>
+              <img src={node} alt="api" className="skillImg" />
+              <p>Node JS</p>
+            </li>
+          </ul>
+
+          <ul className="stackList">
+          <li>
+            <img src={express} alt="api" className="skillImg" />
+            <p>Express JS</p>
+          </li>
+        </ul>
 
               <ul className="stackList">
                 <li>
@@ -130,6 +155,7 @@ const Skill = () => {
                   <p>REST APIs</p>
                 </li>
               </ul>
+
             </li>
             <li>
               <div className="skillSubList">
@@ -187,9 +213,21 @@ const Skill = () => {
               <p>IntelliJ</p>
             </li>
             <li>
-            <img src={STS} alt="intellij" className="skillImg" />
+            <img src={STS} alt="STS" className="skillImg" />
             <p>Spring Tool Suite (STS)</p>
           </li>
+
+          <li>
+          <img src={maven} alt="maven" className="skillImg" />
+          <p>Maven</p>
+        </li>
+
+          <li>
+          <img src={openai} alt="openaiapi" className="skillImg" />
+          <p>OpenAI API Integeration</p>
+        </li>
+
+      
           </ul>
         </article>
       </div>

@@ -6,6 +6,7 @@ const Project = () => {
     <section id="project">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
+
       <div className="container projectContainer">
         {projects.map((project) => (
           <article className="projectItems" key={project.id}>
@@ -23,6 +24,8 @@ const Project = () => {
                 />
               ))}
             </div>
+
+
             <div className="projectItemCta">
               <a href={project.github} className="btn" target="_blank">
                 Github
@@ -39,6 +42,10 @@ const Project = () => {
                 LIVE Demo
               </a>
             </div>
+
+            
+
+
           </article>
         ))}
       </div>

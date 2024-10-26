@@ -10,6 +10,8 @@ import react from "./assets/react.png";
 import CourseWebApp from "./assets/projectFiles/CourseWebApp.png"
 import NetFlixClone from "./assets/projectFiles/NetFlixClone.png"
 import GameHub from "./assets/projectFiles/GameHub.png";
+import fileExt from "./assets/projectFiles/fileExt.png";
+
 
 const projects = [
   
@@ -39,6 +41,16 @@ const projects = [
     github: "https://github.com/pratap-rahul15/GameHub",
     demo: "https://game-hub-project-gilt.vercel.app/",
   },
+
+  {
+    id: 4,
+    image: fileExt,
+    title: "AI FILE EXTRACTOR ",
+    stacks: [html, css, react],
+    github: "https://github.com/pratap-rahul15/AI_File_Extractor",
+    demo: "",
+  },
+
 ];
 
 export default projects;
