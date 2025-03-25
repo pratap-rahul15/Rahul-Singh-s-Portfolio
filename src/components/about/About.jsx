@@ -23,14 +23,14 @@ const About = () => {
               <LuAward className="aboutIcon" />
 
               <h5>Experience</h5>
-              <small>1.5 years Working in the software development feild</small>
+              <small>1.6 years Working in the software development feild</small>
             </article>
 
             <article className="aboutCard">
               <PiDesktopTower className="aboutIcon" />
 
               <h5>Projects</h5>
-              <small>5+ Company & Personal Projects</small>
+              <small>7+ Company & Personal Projects</small>
             </article>
 
             <article className="aboutCard">
@@ -39,7 +39,7 @@ const About = () => {
               <h5>Profit</h5>
               <small>
                 {" "}
-                Tested 50% of the latest plug-ins to ensure accurate log collection from diverse capture/event sources for high-profile clients.
+                Architected and developed the complete backend for the Visitly LLC dasboard feature | Developed and tested 50% of log parsers and plugins using Python and XML
               </small>
             </article>
           </div>

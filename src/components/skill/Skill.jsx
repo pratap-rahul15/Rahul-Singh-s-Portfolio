@@ -20,6 +20,7 @@ import javaScript from "../../assets/java-script.png";
 import react from "../../assets/react.png";
 import vite from "../../assets/vite.png";
 import tailwind from "../../assets/tailwind.png";
+import nextjs from "../../assets/nextjs.png";
 //backend
 
 import API from "../../assets/API.png";
@@ -27,14 +28,19 @@ import springboot from "../../assets/springboot.png";
 import node from "../../assets/node.png";
 import express from "../../assets/express.png";
 
-
 //database
 import mysql from "../../assets/mysql.png";
 import postgres from "../../assets/postgres.png";
 import mongo from "../../assets/mongo.png";
 
+//cloud
+import aws from "../../assets/aws.png";
+import azure from "../../assets/azure.png";
+import oci from "../../assets/oci.png";
+
 //tools
 import Git from "../../assets/Git.png";
+import gitlab from "../../assets/gitlab.png";
 import docker from "../../assets/docker.png";
 import linux from "../../assets/linux.png";
 
@@ -44,13 +50,13 @@ import intellij from "../../assets/intellij.png";
 import STS from "../../assets/STS.png";
 import openai from "../../assets/openai.png";
 import maven from "../../assets/maven.jpg";
+import superset from "../../assets/superset.png";
 
 const Skill = () => {
   return (
     <section id="skill">
-
-      <h5>Relevant Skills</h5>
-      <h2>Skills</h2>
+    <h5>My Expertise</h5>
+     <h2>Skills & Technologies</h2>
       <div className="container skillContainer">
         <article className="skill">
           <div className="skillHead">
@@ -111,16 +117,19 @@ const Skill = () => {
                   <p>React js</p>
                 </li>
                 <li>
-                <img src={vite} alt="vite" className="skillImg" />
-                <p>Vite js</p>
-              </li>
-              <li>
-              <img src={tailwind} alt="vite" className="skillImg" />
-              <p>Tailwind CSS</p>
-            </li>
+                  <img src={vite} alt="vite" className="skillImg" />
+                  <p>Vite js</p>
+                </li>
+                <li>
+                  <img src={tailwind} alt="vite" className="skillImg" />
+                  <p>Tailwind CSS</p>
+                </li>
+                <li>
+                  <img src={nextjs} alt="vite" className="skillImg" />
+                  <p>Next js</p>
+                </li>
               </ul>
             </li>
-            
 
             <li>
               <div className="skillSubList">
@@ -129,25 +138,25 @@ const Skill = () => {
               </div>
 
               <ul className="stackList">
-              <li>
-                <img src={springboot} alt="api" className="skillImg" />
-                <p>SPRING BOOT</p>
-              </li>
-            </ul>
+                <li>
+                  <img src={springboot} alt="api" className="skillImg" />
+                  <p>SPRING BOOT</p>
+                </li>
+              </ul>
 
-            <ul className="stackList">
-            <li>
-              <img src={node} alt="api" className="skillImg" />
-              <p>Node JS</p>
-            </li>
-          </ul>
+              <ul className="stackList">
+                <li>
+                  <img src={node} alt="api" className="skillImg" />
+                  <p>Node JS</p>
+                </li>
+              </ul>
 
-          <ul className="stackList">
-          <li>
-            <img src={express} alt="api" className="skillImg" />
-            <p>Express JS</p>
-          </li>
-        </ul>
+              <ul className="stackList">
+                <li>
+                  <img src={express} alt="api" className="skillImg" />
+                  <p>Express JS</p>
+                </li>
+              </ul>
 
               <ul className="stackList">
                 <li>
@@ -155,7 +164,6 @@ const Skill = () => {
                   <p>REST APIs</p>
                 </li>
               </ul>
-
             </li>
             <li>
               <div className="skillSubList">
@@ -177,6 +185,29 @@ const Skill = () => {
                 </li>
               </ul>
             </li>
+
+            <li>
+              <div className="skillSubList">
+                <FaCircleCheck className="listIcon" />
+                <h4>Cloud:</h4>
+              </div>
+              <ul className="stackList">
+                <li>
+                  <img src={aws} alt="aws" className="skillImg" />
+                  <p>AWS</p>
+                </li>
+
+                <li>
+                  <img src={azure} alt="azure" className="skillImg" />
+                  <p>MS Azure</p>
+                </li>
+
+                <li>
+                  <img src={oci} alt="oracle" className="skillImg" />
+                  <p>OCI</p>
+                </li>
+              </ul>
+            </li>
           </ul>
         </article>
 
@@ -191,6 +222,10 @@ const Skill = () => {
             <li>
               <img src={Git} alt="git" className="skillImg" />
               <p>Git</p>
+            </li>
+            <li>
+            <img src={gitlab} alt="git" className="skillImg" />
+            <p>GitLab</p>
             </li>
             <li>
               <img src={docker} alt="docker" className="skillImg" />
@@ -213,21 +248,24 @@ const Skill = () => {
               <p>IntelliJ</p>
             </li>
             <li>
-            <img src={STS} alt="STS" className="skillImg" />
-            <p>Spring Tool Suite (STS)</p>
-          </li>
+              <img src={STS} alt="STS" className="skillImg" />
+              <p>Spring Tool Suite (STS)</p>
+            </li>
 
-          <li>
-          <img src={maven} alt="maven" className="skillImg" />
-          <p>Maven</p>
-        </li>
+            <li>
+              <img src={maven} alt="maven" className="skillImg" />
+              <p>Maven</p>
+            </li>
 
-          <li>
-          <img src={openai} alt="openaiapi" className="skillImg" />
-          <p>OpenAI API Integeration</p>
-        </li>
+            <li>
+              <img src={openai} alt="openaiapi" className="skillImg" />
+              <p>OpenAI API Integeration</p>
+            </li>
 
-      
+           <li>
+            <img src={superset} alt="superset" className="skillImg" />
+            <p>Apache Superset</p>
+           </li>
           </ul>
         </article>
       </div>
