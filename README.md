@@ -1,6 +1,8 @@
-# Rahul Singh Portfolio
+# Rahul Singh's Portfolio
 
 #### My portfolio showcases my professional experience, educational background, and the industries I have worked in, along with both personal and industry-based projects. It also highlights my skill set and the technologies I excel in.
+
+##### Tech stack used to built the portfolio - HTML, CSS & React .js
 
 Steps to run the project.
 
