@@ -27,6 +27,8 @@ import API from "../../assets/API.png";
 import springboot from "../../assets/springboot.png";
 import node from "../../assets/node.png";
 import express from "../../assets/express.png";
+import kafka from "../../assets/kafka.png";
+import microservices from "../../assets/microservices.png";
 
 //database
 import mysql from "../../assets/mysql.png";
@@ -42,6 +44,7 @@ import oci from "../../assets/oci.png";
 import Git from "../../assets/Git.png";
 import gitlab from "../../assets/gitlab.png";
 import docker from "../../assets/docker.png";
+import graphql from "../../assets/graphql.png";
 import linux from "../../assets/linux.png";
 
 import postman from "../../assets/postman.png";
@@ -51,6 +54,8 @@ import STS from "../../assets/STS.png";
 import openai from "../../assets/openai.png";
 import maven from "../../assets/maven.jpg";
 import superset from "../../assets/superset.png";
+import mcpserver from "../../assets/mcpserver.png";
+import claude from "../../assets/claude.png";
 
 const Skill = () => {
   return (
@@ -158,6 +163,21 @@ const Skill = () => {
                 </li>
               </ul>
 
+              
+              <ul className="stackList">
+                <li>
+                  <img src={kafka} alt="api" className="skillImg" />
+                  <p>Apache Kafka</p>
+                </li>
+              </ul>
+
+               <ul className="stackList">
+                <li>
+                  <img src={microservices} alt="api" className="skillImg" />
+                  <p>Microservices</p>
+                </li>
+              </ul>
+
               <ul className="stackList">
                 <li>
                   <img src={API} alt="api" className="skillImg" />
@@ -231,6 +251,12 @@ const Skill = () => {
               <img src={docker} alt="docker" className="skillImg" />
               <p>Docker</p>
             </li>
+
+            <li>
+              <img src={graphql} alt="docker" className="skillImg" />
+              <p>Graph QL</p>
+            </li>
+
             <li>
               <img src={linux} alt="linux" className="skillImg" />
               <p>Linux</p>
@@ -266,6 +292,17 @@ const Skill = () => {
             <img src={superset} alt="superset" className="skillImg" />
             <p>Apache Superset</p>
            </li>
+
+           <li>
+            <img src={mcpserver} alt="superset" className="skillImg" />
+            <p>MCP Server</p>
+           </li>
+
+            <li>
+            <img src={claude} alt="superset" className="skillImg" />
+            <p>Claude Desktop</p>
+           </li>
+
           </ul>
         </article>
       </div>

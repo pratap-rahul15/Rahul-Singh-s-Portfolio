@@ -23,14 +23,14 @@ const About = () => {
               <LuAward className="aboutIcon" />
 
               <h5>Experience</h5>
-              <small>1.6 years Working in the software development feild</small>
+              <small>2 years Working in the software development field</small>
             </article>
 
             <article className="aboutCard">
               <PiDesktopTower className="aboutIcon" />
 
               <h5>Projects</h5>
-              <small>7+ Company & Personal Projects</small>
+              <small>15+ Company & Personal Projects</small>
             </article>
 
             <article className="aboutCard">
@@ -39,16 +39,21 @@ const About = () => {
               <h5>Profit</h5>
               <small>
                 {" "}
-                Architected and developed the complete backend for the Visitly LLC dasboard feature | Developed and tested 50% of log parsers and plugins using Python and XML
+                Built a Java automation component using Apache POI for
+                extracting Q&A pairs from an Excel file and generating Word
+                documents, reducing manual effort by 80% & accelerating training
+                data generation for AI models. | Architected and developed the
+                complete backend for the Visitly LLC dasboard feature
               </small>
             </article>
           </div>
           <p>
             Greetings! I'm Rahul. I hold a Master's degree (M.TECH) in Computer
-            Science & engineering (CSE) from the  Vellore Institute Of Technology (VIT), Vellore, India.
-            Recently, I've worked as an intern for 1 year at RSA Security Applications Pvt Ltd. as a Graduate 
-            Technical Intern. Additionally, I also like to write technical blogs on various trending topics
-            of computer science on Medium & DEV Community blogging platform.
+            Science & engineering (CSE) from the Vellore Institute Of Technology
+            (VIT), Vellore, India. Recently, I am working as a Software Engineer - Full Stack at Smarter.Codes.
+            Additionally, I also like to write technical blogs on
+            various trending topics of computer science on Medium & DEV
+            Community blogging platform.
           </p>
           <a
             href="#contact"
